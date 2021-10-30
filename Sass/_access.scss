@@ -1,0 +1,97 @@
+#access {
+    background-color: #A193861F;
+}
+
+
+.access-main-title {
+    padding-top: 255px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 5.4px;
+    line-height: 1.3;
+
+    @include sp {
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-bottom: 50px;
+        
+    }
+    
+
+    &::after {
+        display: inline-block;
+        content: "";
+        width: 100px;
+        border-top: 1px solid #707070;
+        margin: 8px;
+
+        @include sp {
+            width: 45px;
+            margin: 5px;
+        }
+    }
+}
+.access-wrap {
+    display: flex;
+    flex-flow: row-reverse;
+    width: 100%;
+    padding-bottom: 70px;
+
+    @include sp {
+        display: block;
+    }
+}
+
+.map-mini {
+    width: 775px;
+    height: 396px;
+
+    @include sp {
+        width: 100%;
+    }
+}
+
+.access-category {
+    width: 100%;
+    background-color: #D0C5BA;
+}
+
+.access-jenre {
+    margin-left: 104px;
+    margin-top: 101px;
+
+    @include sp {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}
+
+.access-title {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    line-height: 1.2;
+    color: #00000038;
+    margin-bottom: 30px;
+
+    @include sp {
+        padding-top: 30px;
+    }
+}
+
+.access-mini {
+    font-size: 16px;
+    letter-spacing: 1.6;
+    line-height: 1.1;
+    color: #fff;
+    :not(:first-child) {
+        margin-top: 24px;
+    }
+}
+
+.access-day {
+    @include sp {
+        padding-bottom: 60px;
+    }
+}
+

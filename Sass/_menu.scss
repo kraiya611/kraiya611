@@ -1,0 +1,57 @@
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    // margin:auto 105px;
+
+    @include sp {
+        display: block;
+    }
+}
+
+.menu-img {
+    img {
+        width: 100%;
+    }
+}
+
+.menu-item {
+    width: 274px;
+
+    @include sp {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+
+.menu-content-title {
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 37px;
+
+    @include sp {
+        text-align: left;
+    }
+}
+
+.menu-content-text {
+    margin-top: 34px;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    text-align: 1.1;
+}
+
+.menu-content-price {
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1.6;
+    text-align: 1.1;
+    margin: 34px 10px 70px 158px;
+
+    @include sp {
+        text-align: right;
+        margin: 0;
+    }
+}
